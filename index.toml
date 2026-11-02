@@ -210,7 +210,7 @@ hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "74a35fd305ec8ce663d3c3ae1263b204e932a32d410741d4ea59d7218840e6fb"
+hash = "256f20f8371addae585bd75f827e66e9258ab1d272145fc3209707ed0b3622ba"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"

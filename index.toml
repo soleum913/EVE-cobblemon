@@ -198,7 +198,7 @@ hash = "366dda041dd2b0ed9cf872fce9affcb4c193a3b9abdf4dff6bdb6372cdade021"
 
 [[files]]
 file = "config/fancymenu/assets/eve_menu/window_menu_bw.png"
-hash = "9ff05ed9c6b7f259fa63669f985f568cc61e384a3692f35b6c7f7ce2107dde24"
+hash = "dc03c84fa86a682924f730ce8c5919c910d885e5895224ecc6735aca5c35e020"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -210,7 +210,7 @@ hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "256f20f8371addae585bd75f827e66e9258ab1d272145fc3209707ed0b3622ba"
+hash = "d7740e8fbc2b4485ff420d306bc3fd1d6ea7032300102d7455a2934690a6c9b6"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"

@@ -12,6 +12,11 @@ layout-meta {
   [loading_requirement_container_meta:6a8aea39-f2f6-4915-bb30-0ec1721e8678-1793617040159] = [groups:][instances:]
 }
 
+customization {
+  action = setscale
+  scale = 4.0
+}
+
 menu_background {
   instance_identifier = ec750310-c512-44f1-bd3c-3a8ededa41f3-1793613534028
   background_type = color_fancymenu
@@ -356,11 +361,11 @@ element {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = 75
-  y = -60
+  anchor_point = top-left
+  x = 316
+  y = 66
   width = 120
-  height = 95
+  height = 94
   stay_on_screen = true
   element_loading_requirement_container_identifier = 7950d72c-8732-4eda-b803-c742d09efd3c-1793613891496
   [loading_requirement_container_meta:7950d72c-8732-4eda-b803-c742d09efd3c-1793613891496] = [groups:][instances:]
@@ -421,10 +426,10 @@ element {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = element
+  anchor_point = top-left
   anchor_point_element = minecraft_logo_widget
-  x = 173
-  y = -24
+  x = 286
+  y = 4
   width = 180
   height = 57
   stay_on_screen = true
@@ -441,8 +446,8 @@ element {
   advanced_horizontal_tilt_mode = false
   should_be_affected_by_decoration_overlays = false
   in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
+  advanced_posx = 286
+  advanced_posy = 4
   advanced_width = -2147483648
   advanced_height = -2147483648
   stretch_x = false
@@ -483,7 +488,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  label = &lEVE 서버 접속%!n!%%!n!%
+  label = &lEVE 서버 접속
   navigatable = true
   widget_active_state_requirement_container_identifier = 739840a2-7c1f-4147-a051-f09b14e2b756-1793613979016
   [loading_requirement_container_meta:739840a2-7c1f-4147-a051-f09b14e2b756-1793613979016] = [groups:][instances:]
@@ -510,9 +515,9 @@ element {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = mid-right
-  x = -318
-  y = -55
+  anchor_point = top-left
+  x = 324
+  y = 74
   width = 104
   height = 14
   stay_on_screen = true
@@ -530,7 +535,7 @@ element {
   should_be_affected_by_decoration_overlays = true
   in_editor_color = #FFC800FF
   advanced_posx = 324
-  advanced_posy = -2147483648
+  advanced_posy = 74
   advanced_width = -2147483648
   advanced_height = -2147483648
   stretch_x = false
@@ -591,9 +596,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = mid-right
-  x = -251
-  y = -37
+  anchor_point = top-left
+  x = 324
+  y = 90
   width = 200
   height = 20
   stay_on_screen = true
@@ -611,7 +616,7 @@ vanilla_button {
   should_be_affected_by_decoration_overlays = true
   in_editor_color = #FFC800FF
   advanced_posx = 324
-  advanced_posy = -2147483648
+  advanced_posy = 90
   advanced_width = 104
   advanced_height = 14
   stretch_x = false
@@ -637,6 +642,7 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
+  label = &l싱글플레이
 }
 
 vanilla_button {
@@ -674,9 +680,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = mid-right
-  x = -155
-  y = 15
+  anchor_point = top-left
+  x = 324
+  y = 138
   width = 98
   height = 20
   stay_on_screen = true
@@ -694,7 +700,7 @@ vanilla_button {
   should_be_affected_by_decoration_overlays = true
   in_editor_color = #FFC800FF
   advanced_posx = 324
-  advanced_posy = -2147483648
+  advanced_posy = 138
   advanced_width = 104
   advanced_height = 14
   stretch_x = false
@@ -720,6 +726,7 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
+  label = &l게임 종료
 }
 
 vanilla_button {
@@ -1241,9 +1248,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 0
   auto_sizing_base_gui_height = 0
   sticky_anchor = false
-  anchor_point = vanilla
-  x = 291
-  y = 243
+  anchor_point = top-left
+  x = 2
+  y = 2
   width = 187
   height = 10
   stay_on_screen = true
@@ -1260,8 +1267,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   should_be_affected_by_decoration_overlays = true
   in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
+  advanced_posx = 2
+  advanced_posy = 2
   advanced_width = -2147483648
   advanced_height = -2147483648
   stretch_x = false
@@ -1324,10 +1331,10 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = element
+  anchor_point = top-left
   anchor_point_element = 8b48f7f5-a6bf-42a1-9a95-11d561b64f57-1793613891497
-  x = 27
-  y = 58
+  x = 324
+  y = 122
   width = 98
   height = 20
   stay_on_screen = true
@@ -1345,7 +1352,7 @@ vanilla_button {
   should_be_affected_by_decoration_overlays = true
   in_editor_color = #FFC800FF
   advanced_posx = 324
-  advanced_posy = -2147483648
+  advanced_posy = 122
   advanced_width = 104
   advanced_height = 14
   stretch_x = false
@@ -1371,6 +1378,7 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
+  label = &l설정
 }
 
 vanilla_button {
@@ -1408,9 +1416,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = mid-right
-  x = -156
-  y = -20
+  anchor_point = top-left
+  x = 324
+  y = 106
   width = 200
   height = 20
   stay_on_screen = true
@@ -1428,7 +1436,7 @@ vanilla_button {
   should_be_affected_by_decoration_overlays = true
   in_editor_color = #FFC800FF
   advanced_posx = 324
-  advanced_posy = -2147483648
+  advanced_posy = 106
   advanced_width = 104
   advanced_height = 14
   stretch_x = false
@@ -1454,6 +1462,7 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
+  label = &l멀티플레이
 }
 
 vanilla_button {
@@ -1615,6 +1624,6 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 

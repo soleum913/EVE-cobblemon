@@ -1,0 +1,13 @@
+name = "Cobblemore Lib"
+filename = "cobblemore_lib-fabric-1.2.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VYP2vmDS/versions/d2rpiXTU/cobblemore_lib-fabric-1.2.10.jar"
+hash-format = "sha512"
+hash = "c78dd7e2d51994cee66992ea25fd9c39e0bae6a7a135391e1067e8d49750a0d6bf76c1a42f246f098f95c97d31b062695837c67f46cab5c92cb724814109ebb3"
+
+[update]
+[update.modrinth]
+mod-id = "VYP2vmDS"
+version = "d2rpiXTU"

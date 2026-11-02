@@ -1,0 +1,13 @@
+name = "EVE Cobblemon"
+author = "soleum913"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "57f6b4fda0b59137c847abc310471e8ad7d6677d047fe67dd8d6df45d16a9084"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "1.21.1"

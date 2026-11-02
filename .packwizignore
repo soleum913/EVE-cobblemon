@@ -1,0 +1,4 @@
+# 저장소 안내용 파일은 게임 폴더에 설치하지 않는다
+README.md
+.gitattributes
+.gitignore

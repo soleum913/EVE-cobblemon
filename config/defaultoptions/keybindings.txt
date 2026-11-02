@@ -9,11 +9,11 @@ key_key.sneak:key.keyboard.left.control
 key_key.sprint:key.keyboard.left.shift
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
-key_key.chat:key.keyboard.t
+key_key.chat:key.keyboard.enter
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.unknown
+key_key.socialInteractions:key.keyboard.x
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -76,7 +76,7 @@ key_key.ftbquests.gui_quest_panel.add_page_break:key.keyboard.unknown
 key_key.ftbquests.gui_quest_panel.add_line:key.keyboard.unknown
 key_key.ftbquests.gui_quest_panel.add_image:key.keyboard.unknown
 key_key.ftbquests.gui_quest_panel.edit_quest_props:key.keyboard.unknown
-key_key.ftbteams.open_gui:key.keyboard.unknown
+key_key.ftbteams.open_gui:key.keyboard.t
 key_accessories.key.open_accessories_screen:key.keyboard.h
 key_key.catchindicator.open_config:key.keyboard.unknown
 key_key.catchrate.toggle_hud:key.keyboard.p
@@ -168,3 +168,4 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
+key_key.unlockIME:key.keyboard.right.shift

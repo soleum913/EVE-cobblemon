@@ -170,7 +170,7 @@ hash = "b713daada4df9353befa0b3bb7989c5a474eba97fe323833ac886ec7479ccd78"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "cadf968f9574cc5e36fbca70601bebe9747992c1e92c080a08e4b2996beb94ee"
+hash = "1278269b3db81922ddf9a3b15f15c79b99c0b6a8c192408d46b248104245d59a"
 
 [[files]]
 file = "config/entityculling.json"

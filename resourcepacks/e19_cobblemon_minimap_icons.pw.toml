@@ -1,0 +1,13 @@
+name = "E19 - Cobblemon Minimap Icons"
+filename = "E19 Master Klefki Version.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Va3BanZa/versions/gVfRyNic/E19%20Master%20Klefki%20Version.zip"
+hash-format = "sha512"
+hash = "b7a79f9de777ffc6eeb579da267864a40290287ba76e68bdf89cff060de3ff735116d18e91115d68a23c93963df665bcd524c46047ca42196680a60259bab511"
+
+[update]
+[update.modrinth]
+mod-id = "Va3BanZa"
+version = "gVfRyNic"

@@ -1,0 +1,13 @@
+name = "Aio's Extra Structures!"
+filename = "AioStructures-4.9.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fhlJH7f6/versions/32a9uJ9Y/AioStructures-4.9.3.jar"
+hash-format = "sha512"
+hash = "bbcdb1ee20bb30fea17e3aee134a7e9c4d49e3af7580fe177f568d7acde52831234ee4f3cacdbe6af29977876dd8476a5a9fa547ffbf7ec64b953b811737b13c"
+
+[update]
+[update.modrinth]
+mod-id = "fhlJH7f6"
+version = "32a9uJ9Y"

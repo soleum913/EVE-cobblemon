@@ -1,0 +1,13 @@
+name = "Cobblemon : Poke Labs"
+filename = "cobblemon_poke_labs-fabric-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wk0xZVPQ/versions/1SQlh2eA/cobblemon_poke_labs-fabric-1.1.2.jar"
+hash-format = "sha512"
+hash = "12be4d9876d0a8e8dcc3de70a3920fa73939fb421f83c9797955e7d1733e88c71da0ebe440f65a7160cc769cb3d2bc3011a7be1d89b5cac46ba02877522f7caf"
+
+[update]
+[update.modrinth]
+mod-id = "Wk0xZVPQ"
+version = "1SQlh2eA"

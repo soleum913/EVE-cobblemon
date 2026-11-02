@@ -313,6 +313,10 @@ file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
+file = "config/iris.properties"
+hash = "5415b2f3e19f4cb1cfbba448d6e85163da9b3d3380aba5fe13e244ba6f26279e"
+
+[[files]]
 file = "config/jade/hide-blocks.json"
 hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
 
@@ -1305,4 +1309,14 @@ hash = "ddc0e6bba34e8234fcd6d61612043b4fb59fc89268ba7ad4056696a1ed3aebe3"
 [[files]]
 file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
 hash = "ca1edc6d5870896c6221564a46e1121a3d8d43199e1700244264f074ac7b1254"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "77138abb53ea02c97f6e680c10cb8e7565cf207d0f3411e6e5507d5e9eda91a3"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "41ee99f3a34ae9863f6f597eb9c8cebe562ff4eea40df45f78814e09feaf8480"
 metafile = true

@@ -13,7 +13,7 @@ EVE 동아리 포켓몬(Cobblemon) 서버용 클라이언트 모드팩입니다.
 
 | 파일 | 내용 | 권리·라이선스 |
 |---|---|---|
-| `global_packs/required_resources/EVE_lang_ko.zip` | 여러 모드의 비공식 한국어 번역 리소스팩 | 원문은 각 모드 원작자의 것입니다. 팩 안 `CREDITS.txt`·`MEGA_SHOWDOWN_LICENSE.md` 참조 |
+| `global_packs/required_resources/EVE_lang_ko.zip` | 여러 모드의 비공식 한국어 번역 리소스팩 | 원문은 각 모드 원작자의 것입니다. 팩 안 `CREDITS.txt` 참조 |
 | `resourcepacks/EVE_font_*.zip` | 한글 도트 글꼴 리소스팩 | 각 글꼴의 SIL Open Font License (팩 안 `OFL.txt`) |
 | `config/` | 모드 설정 파일 | 동아리 서버용 설정 |
 | `config/fancymenu/` | 메인 메뉴 레이아웃과 그림 | 동아리 자체 제작 |

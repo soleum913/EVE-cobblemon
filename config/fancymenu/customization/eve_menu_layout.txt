@@ -3,7 +3,7 @@ type = fancymenu_layout
 layout-meta {
   identifier = eve_menu
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1794375171000
+  last_edited_time = 1794376252000
   is_enabled = true
   randommode = false
   randomgroup = 1
@@ -196,38 +196,6 @@ element {
   navigatable = true
   widget_active_state_requirement_container_identifier = eve-btn-res-active
   [loading_requirement_container_meta:eve-btn-res-active] = [groups:][instances:]
-}
-
-element {
-  element_type = custom_button
-  instance_identifier = eve-btn-back
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 5
-  y = -50
-  width = 125
-  height = 20
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-btn-back-req
-  [loading_requirement_container_meta:eve-btn-back-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  label = 돌아가기
-  description = 직전 위치로 돌아가기 (/back)
-  button_element_executable_block_identifier = eve-btn-back-script
-  [executable_block:eve-btn-back-script][type:generic] = [executables:eve-btn-back-a1;eve-btn-back-a2;]
-  [executable_action_instance:eve-btn-back-a1][action_type:closegui] = 
-  [executable_action_instance:eve-btn-back-a2][action_type:sendmessage] = /back
-  navigatable = true
-  widget_active_state_requirement_container_identifier = eve-btn-back-active
-  [loading_requirement_container_meta:eve-btn-back-active] = [groups:][instances:]
 }
 
 element {
@@ -559,32 +527,6 @@ element {
   layer_hidden_in_editor = false
   base_opacity = 1.0
   item_key = minecraft:red_bed
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-back
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 8
-  y = -48
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-back-req
-  [loading_requirement_container_meta:eve-ico-back-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:recovery_compass
   enchanted = false
   show_tooltip = false
 }

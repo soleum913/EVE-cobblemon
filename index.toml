@@ -210,7 +210,7 @@ hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
 
 [[files]]
 file = "config/fancymenu/customization/eve_menu_layout.txt"
-hash = "fd2c41a425a123b09470d34f5a0fefa12bca27a6d9a285598d901102ba435a7e"
+hash = "c4e510014c6f02c432ece41e680244571bd84133586fea8c71f073ea494a98db"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"

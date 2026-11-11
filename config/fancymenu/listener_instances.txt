@@ -1,0 +1,16 @@
+type = listener_instances
+
+listener_instance {
+  listener_instance_identifier = eve-menu-key
+  listener_provider_identifier = keyboard_key_pressed
+  listener_instance_action_script_identifier = eve-menu-key-script
+  listener_instance_display_name = EVE 메뉴 열기 (J)
+  [executable_block:eve-menu-key-script][type:generic] = [executables:eve-menu-key-if;]
+  [executable_block:eve-menu-key-if][type:if] = [executables:eve-menu-key-open;]
+  [executable_action_instance:eve-menu-key-open][action_type:opengui] = eve_menu
+  [if_executable_block_body:eve-menu-key-if] = eve-menu-key-cond
+  [loading_requirement_container_meta:eve-menu-key-cond] = [groups:][instances:eve-menu-key-is-j;eve-menu-key-no-screen;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:eve-menu-key-is-j] = ["mode":"equals","text":"$$key_keycode","compare_with":"74"]$
+  [loading_requirement:is_any_screen_open][requirement_mode:if_not][req_id:eve-menu-key-no-screen] =
+  [if_executable_block_collapsed:eve-menu-key-if] = false
+}

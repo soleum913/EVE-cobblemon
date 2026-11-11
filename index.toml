@@ -170,7 +170,7 @@ hash = "b713daada4df9353befa0b3bb7989c5a474eba97fe323833ac886ec7479ccd78"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "1278269b3db81922ddf9a3b15f15c79b99c0b6a8c192408d46b248104245d59a"
+hash = "0d79a490a6ec050f241f9aae2f9a437d86c37aab3a7028c64dd3eb961ec431b0"
 
 [[files]]
 file = "config/entityculling.json"
@@ -202,11 +202,15 @@ hash = "dc03c84fa86a682924f730ce8c5919c910d885e5895224ecc6735aca5c35e020"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+hash = "fade676c31dc033bf8c5a344774c43e010db191e3ad5659210dce89c1eada524"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
+
+[[files]]
+file = "config/fancymenu/customization/eve_menu_layout.txt"
+hash = "fd2c41a425a123b09470d34f5a0fefa12bca27a6d9a285598d901102ba435a7e"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
@@ -215,6 +219,10 @@ hash = "d7740e8fbc2b4485ff420d306bc3fd1d6ea7032300102d7455a2934690a6c9b6"
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/listener_instances.txt"
+hash = "2cbd0203b2bcd971e25abcd23558cbc19a1f7aae5c0a0376683ee85baac3b90f"
 
 [[files]]
 file = "config/fancymenu/options.txt"

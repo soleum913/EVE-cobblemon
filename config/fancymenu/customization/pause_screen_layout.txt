@@ -1,0 +1,315 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = pause_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1794377933000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:pause_screen-layout-req] = [groups:][instances:]
+}
+
+menu_background {
+  instance_identifier = eve-pause-bg
+  background_type = color_fancymenu
+  show_background = true
+  color = #000000D9
+}
+
+element {
+  element_type = image
+  instance_identifier = eve-pause-panel
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = mc_pausescreen_return_to_game_button
+  x = -12
+  y = -12
+  width = 228
+  height = 116
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = eve-pause-panel-req
+  [loading_requirement_container_meta:eve-pause-panel-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  source = [source:local]/config/fancymenu/assets/eve_menu/pause_panel.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_return_to_game_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = vanilla
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_return_to_game_button-req
+  [loading_requirement_container_meta:mc_pausescreen_return_to_game_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_return_to_game_button-script
+  [executable_block:mc_pausescreen_return_to_game_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_full.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_return_to_game_button-active
+  [loading_requirement_container_meta:mc_pausescreen_return_to_game_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = false
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_advancements_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = vanilla
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_advancements_button-req
+  [loading_requirement_container_meta:mc_pausescreen_advancements_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_advancements_button-script
+  [executable_block:mc_pausescreen_advancements_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_half.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_advancements_button-active
+  [loading_requirement_container_meta:mc_pausescreen_advancements_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = false
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_stats_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = vanilla
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_stats_button-req
+  [loading_requirement_container_meta:mc_pausescreen_stats_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_stats_button-script
+  [executable_block:mc_pausescreen_stats_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_half.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_stats_button-active
+  [loading_requirement_container_meta:mc_pausescreen_stats_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = false
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_feedback_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = vanilla
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_feedback_button-req
+  [loading_requirement_container_meta:mc_pausescreen_feedback_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_feedback_button-script
+  [executable_block:mc_pausescreen_feedback_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_half.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_feedback_button-active
+  [loading_requirement_container_meta:mc_pausescreen_feedback_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_report_bugs_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = vanilla
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_report_bugs_button-req
+  [loading_requirement_container_meta:mc_pausescreen_report_bugs_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_report_bugs_button-script
+  [executable_block:mc_pausescreen_report_bugs_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_half.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_report_bugs_button-active
+  [loading_requirement_container_meta:mc_pausescreen_report_bugs_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_options_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = mc_pausescreen_return_to_game_button
+  x = 0
+  y = 48
+  width = 98
+  height = 20
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_options_button-req
+  [loading_requirement_container_meta:mc_pausescreen_options_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_options_button-script
+  [executable_block:mc_pausescreen_options_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_half.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_options_button-active
+  [loading_requirement_container_meta:mc_pausescreen_options_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = false
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_lan_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = mc_pausescreen_return_to_game_button
+  x = 106
+  y = 48
+  width = 98
+  height = 20
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_lan_button-req
+  [loading_requirement_container_meta:mc_pausescreen_lan_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_lan_button-script
+  [executable_block:mc_pausescreen_lan_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_half.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_lan_button-active
+  [loading_requirement_container_meta:mc_pausescreen_lan_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = false
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_disconnect_button
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = mc_pausescreen_return_to_game_button
+  x = 0
+  y = 72
+  width = 204
+  height = 20
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = mc_pausescreen_disconnect_button-req
+  [loading_requirement_container_meta:mc_pausescreen_disconnect_button-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = mc_pausescreen_disconnect_button-script
+  [executable_block:mc_pausescreen_disconnect_button-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/pause_button_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/pause_button_hover_full.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = mc_pausescreen_disconnect_button-active
+  [loading_requirement_container_meta:mc_pausescreen_disconnect_button-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = false
+}
+
+layout_action_executable_blocks {
+}

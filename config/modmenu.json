@@ -21,7 +21,7 @@
   "update_channel": "release",
   "quick_configure": true,
   "modify_title_screen": true,
-  "modify_game_menu": true,
+  "modify_game_menu": false,
   "hide_config_buttons": false,
   "config_mode": false,
   "disable_drag_and_drop": false,

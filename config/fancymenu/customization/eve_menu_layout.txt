@@ -3,18 +3,18 @@ type = fancymenu_layout
 layout-meta {
   identifier = eve_menu
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1794376252000
+  last_edited_time = 1794377933000
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eve-layout-req] = [groups:][instances:]
+  [loading_requirement_container_meta:eve_menu-layout-req] = [groups:][instances:]
 }
 
 element {
-  element_type = text_v2
-  instance_identifier = eve-txt-title
+  element_type = image
+  instance_identifier = eve-panel
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -22,29 +22,27 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = -108
-  width = 260
-  height = 14
+  x = -164
+  y = -80
+  width = 328
+  height = 162
   stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-txt-title-req
-  [loading_requirement_container_meta:eve-txt-title-req] = [groups:][instances:]
+  element_loading_requirement_container_identifier = eve-panel-req
+  [loading_requirement_container_meta:eve-panel-req] = [groups:][instances:]
   enable_parallax = false
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  source = **EVE 메뉴**   ESC로 닫기
-  source_mode = direct
-  shadow = true
-  case_mode = normal
-  enable_scrolling = false
-  auto_line_wrapping = true
-  interactable = false
+  source = [source:local]/config/fancymenu/assets/eve_menu/eve_panel.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
 }
 
 element {
-  element_type = text_v2
-  instance_identifier = eve-txt-move
+  element_type = image
+  instance_identifier = eve-title
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -52,54 +50,22 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = -86
-  width = 260
-  height = 10
+  x = -52
+  y = -90
+  width = 104
+  height = 20
   stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-txt-move-req
-  [loading_requirement_container_meta:eve-txt-move-req] = [groups:][instances:]
+  element_loading_requirement_container_identifier = eve-title-req
+  [loading_requirement_container_meta:eve-title-req] = [groups:][instances:]
   enable_parallax = false
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  source = 이동
-  source_mode = direct
-  shadow = true
-  case_mode = normal
-  enable_scrolling = false
-  auto_line_wrapping = true
-  interactable = false
-}
-
-element {
-  element_type = text_v2
-  instance_identifier = eve-txt-func
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -130
-  y = -26
-  width = 260
-  height = 10
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-txt-func-req
-  [loading_requirement_container_meta:eve-txt-func-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  source = 기능
-  source_mode = direct
-  shadow = true
-  case_mode = normal
-  enable_scrolling = false
-  auto_line_wrapping = true
-  interactable = false
+  source = [source:local]/config/fancymenu/assets/eve_menu/eve_title.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
 }
 
 element {
@@ -112,10 +78,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = -74
-  width = 125
-  height = 20
+  x = -152
+  y = -64
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-spawn-req
   [loading_requirement_container_meta:eve-btn-spawn-req] = [groups:][instances:]
@@ -123,8 +89,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 스폰
+  label =
   description = 스폰 지점으로 이동 (/spawn)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_spawn.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_spawn_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-spawn-script
   [executable_block:eve-btn-spawn-script][type:generic] = [executables:eve-btn-spawn-a1;eve-btn-spawn-a2;]
   [executable_action_instance:eve-btn-spawn-a1][action_type:closegui] = 
@@ -144,10 +115,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 5
-  y = -74
-  width = 125
-  height = 20
+  x = -90
+  y = -64
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-wild-req
   [loading_requirement_container_meta:eve-btn-wild-req] = [groups:][instances:]
@@ -155,8 +126,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 야생
+  label =
   description = 야생 무작위 위치로 이동 (/rtp)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_wild.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_wild_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-wild-script
   [executable_block:eve-btn-wild-script][type:generic] = [executables:eve-btn-wild-a1;eve-btn-wild-a2;]
   [executable_action_instance:eve-btn-wild-a1][action_type:closegui] = 
@@ -176,10 +152,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = -50
-  width = 125
-  height = 20
+  x = -28
+  y = -64
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-res-req
   [loading_requirement_container_meta:eve-btn-res-req] = [groups:][instances:]
@@ -187,8 +163,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 거주 구역
+  label =
   description = 거주 구역으로 이동 (/warp residence)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_res.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_res_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-res-script
   [executable_block:eve-btn-res-script][type:generic] = [executables:eve-btn-res-a1;eve-btn-res-a2;]
   [executable_action_instance:eve-btn-res-a1][action_type:closegui] = 
@@ -208,10 +189,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = -14
-  width = 125
-  height = 20
+  x = 34
+  y = -64
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-quest-req
   [loading_requirement_container_meta:eve-btn-quest-req] = [groups:][instances:]
@@ -219,8 +200,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 퀘스트
+  label =
   description = FTB 퀘스트 (단축키 I)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_quest.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_quest_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-quest-script
   [executable_block:eve-btn-quest-script][type:generic] = [executables:eve-btn-quest-a1;eve-btn-quest-a2;]
   [executable_action_instance:eve-btn-quest-a1][action_type:closegui] = 
@@ -240,10 +226,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 5
-  y = -14
-  width = 125
-  height = 20
+  x = 96
+  y = -64
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-team-req
   [loading_requirement_container_meta:eve-btn-team-req] = [groups:][instances:]
@@ -251,8 +237,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 팀
+  label =
   description = FTB 팀 (단축키 T)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_team.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_team_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-team-script
   [executable_block:eve-btn-team-script][type:generic] = [executables:eve-btn-team-a1;eve-btn-team-a2;]
   [executable_action_instance:eve-btn-team-a1][action_type:closegui] = 
@@ -272,10 +263,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = 10
-  width = 125
-  height = 20
+  x = -152
+  y = 0
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-claim-req
   [loading_requirement_container_meta:eve-btn-claim-req] = [groups:][instances:]
@@ -283,8 +274,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 땅 관리
+  label =
   description = FTB Chunks 지도 (단축키 Y)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_claim.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_claim_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-claim-script
   [executable_block:eve-btn-claim-script][type:generic] = [executables:eve-btn-claim-a1;eve-btn-claim-a2;]
   [executable_action_instance:eve-btn-claim-a1][action_type:closegui] = 
@@ -304,10 +300,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 5
-  y = 10
-  width = 125
-  height = 20
+  x = -90
+  y = 0
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-map-req
   [loading_requirement_container_meta:eve-btn-map-req] = [groups:][instances:]
@@ -315,8 +311,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 월드맵
+  label =
   description = Xaero 월드맵 (단축키 M)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_map.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_map_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-map-script
   [executable_block:eve-btn-map-script][type:generic] = [executables:eve-btn-map-a1;eve-btn-map-a2;]
   [executable_action_instance:eve-btn-map-a1][action_type:closegui] = 
@@ -336,10 +337,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = 34
-  width = 125
-  height = 20
+  x = -28
+  y = 0
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-acc-req
   [loading_requirement_container_meta:eve-btn-acc-req] = [groups:][instances:]
@@ -347,8 +348,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 장신구
+  label =
   description = 장신구 창 (단축키 H)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_acc.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_acc_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-acc-script
   [executable_block:eve-btn-acc-script][type:generic] = [executables:eve-btn-acc-a1;eve-btn-acc-a2;]
   [executable_action_instance:eve-btn-acc-a1][action_type:closegui] = 
@@ -368,10 +374,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 5
-  y = 34
-  width = 125
-  height = 20
+  x = 34
+  y = 0
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-sum-req
   [loading_requirement_container_meta:eve-btn-sum-req] = [groups:][instances:]
@@ -379,8 +385,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 포켓몬 요약
+  label =
   description = 포켓몬 요약 (단축키 ')
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_summary.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_summary_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-sum-script
   [executable_block:eve-btn-sum-script][type:generic] = [executables:eve-btn-sum-a1;eve-btn-sum-a2;]
   [executable_action_instance:eve-btn-sum-a1][action_type:closegui] = 
@@ -400,10 +411,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -130
-  y = 58
-  width = 125
-  height = 20
+  x = 96
+  y = 0
+  width = 56
+  height = 58
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-btn-log-req
   [loading_requirement_container_meta:eve-btn-log-req] = [groups:][instances:]
@@ -411,8 +422,13 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 배틀 기록
+  label =
   description = 배틀 기록 (단축키 ;)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_log.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_log_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
   button_element_executable_block_identifier = eve-btn-log-script
   [executable_block:eve-btn-log-script][type:generic] = [executables:eve-btn-log-a1;eve-btn-log-a2;]
   [executable_action_instance:eve-btn-log-a1][action_type:closegui] = 
@@ -423,8 +439,8 @@ element {
 }
 
 element {
-  element_type = custom_button
-  instance_identifier = eve-btn-close
+  element_type = text_v2
+  instance_identifier = eve-txt-foot
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -432,311 +448,24 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 5
-  y = 58
-  width = 125
-  height = 20
+  x = -152
+  y = 66
+  width = 304
+  height = 10
   stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-btn-close-req
-  [loading_requirement_container_meta:eve-btn-close-req] = [groups:][instances:]
+  element_loading_requirement_container_identifier = eve-txt-foot-req
+  [loading_requirement_container_meta:eve-txt-foot-req] = [groups:][instances:]
   enable_parallax = false
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 닫기
-  description = 메뉴 닫기
-  button_element_executable_block_identifier = eve-btn-close-script
-  [executable_block:eve-btn-close-script][type:generic] = [executables:eve-btn-close-a1;]
-  [executable_action_instance:eve-btn-close-a1][action_type:closegui] = 
-  navigatable = true
-  widget_active_state_requirement_container_identifier = eve-btn-close-active
-  [loading_requirement_container_meta:eve-btn-close-active] = [groups:][instances:]
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-spawn
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -127
-  y = -72
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-spawn-req
-  [loading_requirement_container_meta:eve-ico-spawn-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:compass
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-wild
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 8
-  y = -72
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-wild-req
-  [loading_requirement_container_meta:eve-ico-wild-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:grass_block
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-res
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -127
-  y = -48
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-res-req
-  [loading_requirement_container_meta:eve-ico-res-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:red_bed
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-quest
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -127
-  y = -12
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-quest-req
-  [loading_requirement_container_meta:eve-ico-quest-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = ftbquests:book
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-team
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 8
-  y = -12
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-team-req
-  [loading_requirement_container_meta:eve-ico-team-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:white_banner
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-claim
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -127
-  y = 12
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-claim-req
-  [loading_requirement_container_meta:eve-ico-claim-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:filled_map
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-map
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 8
-  y = 12
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-map-req
-  [loading_requirement_container_meta:eve-ico-map-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:map
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-acc
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -127
-  y = 36
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-acc-req
-  [loading_requirement_container_meta:eve-ico-acc-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:gold_ingot
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-sum
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 8
-  y = 36
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-sum-req
-  [loading_requirement_container_meta:eve-ico-sum-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = cobblemon:poke_ball
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-log
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -127
-  y = 60
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-log-req
-  [loading_requirement_container_meta:eve-ico-log-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:writable_book
-  enchanted = false
-  show_tooltip = false
-}
-
-element {
-  element_type = item
-  instance_identifier = eve-ico-close
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = 8
-  y = 60
-  width = 16
-  height = 16
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-ico-close-req
-  [loading_requirement_container_meta:eve-ico-close-req] = [groups:][instances:]
-  enable_parallax = false
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  base_opacity = 1.0
-  item_key = minecraft:barrier
-  enchanted = false
-  show_tooltip = false
+  source = * ESC를 누르면 닫힙니다.
+  source_mode = direct
+  shadow = false
+  case_mode = normal
+  enable_scrolling = false
+  auto_line_wrapping = false
+  interactable = false
 }
 
 layout_action_executable_blocks {

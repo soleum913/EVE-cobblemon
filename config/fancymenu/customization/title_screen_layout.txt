@@ -33,8 +33,8 @@ menu_background {
 menu_background {
   instance_identifier = 89f71163-df14-4095-9cf5-8a46d4b43596-1793613534028
   background_type = image
-  show_background = true
-  image_path = [source:local]/config/fancymenu/assets/eve_menu/bg_undertale.png
+  show_background = false
+  image_path = 
   slide = false
   repeat_texture = false
   parallax = false
@@ -347,142 +347,9 @@ scroll_list_customization {
 layout_action_executable_blocks {
 }
 
-element {
-  element_type = image
-  instance_identifier = 8b48f7f5-a6bf-42a1-9a95-11d561b64f57-1793613891497
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1012
-  auto_sizing_base_gui_scale = 4
-  auto_sizing_base_gui_width = 480
-  auto_sizing_base_gui_height = 253
-  sticky_anchor = false
-  anchor_point = top-right
-  x = -164
-  y = 66
-  width = 120
-  height = 78
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 7950d72c-8732-4eda-b803-c742d09efd3c-1793613891496
-  [loading_requirement_container_meta:7950d72c-8732-4eda-b803-c742d09efd3c-1793613891496] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/eve_menu/window_menu_bw.png
-  repeat_texture = false
-  nine_slice_texture = false
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
-  restart_animated_on_menu_load = false
-  image_tint = #FFFFFF
-  rounding_radius_top_left = 0.0
-  rounding_radius_top_right = 0.0
-  rounding_radius_bottom_right = 0.0
-  rounding_radius_bottom_left = 0.0
-}
-
-element {
-  element_type = image
-  instance_identifier = dbc55956-0022-428f-b63d-8925fcec71c0-1793613672835
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1012
-  auto_sizing_base_gui_scale = 4
-  auto_sizing_base_gui_width = 480
-  auto_sizing_base_gui_height = 253
-  sticky_anchor = false
-  anchor_point = top-right
-  anchor_point_element = minecraft_logo_widget
-  x = -194
-  y = 4
-  width = 180
-  height = 57
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = f1d935df-1af1-463f-a44e-473ae7d2a7a6-1793613672835
-  [loading_requirement_container_meta:f1d935df-1af1-463f-a44e-473ae7d2a7a6-1793613672835] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  source = [source:local]/config/fancymenu/assets/eve_menu/logo_eve_bw.png
-  repeat_texture = false
-  nine_slice_texture = false
-  nine_slice_texture_border_x = 5
-  nine_slice_texture_border_y = 5
-  restart_animated_on_menu_load = false
-  image_tint = #FFFFFF
-  rounding_radius_top_left = 0.0
-  rounding_radius_top_right = 0.0
-  rounding_radius_bottom_right = 0.0
-  rounding_radius_bottom_left = 0.0
-}
-
 vanilla_button {
   button_element_executable_block_identifier = 23311a7a-dc39-443c-be58-087a73e6eec5-1793613534029
   [executable_block:23311a7a-dc39-443c-be58-087a73e6eec5-1793613534029][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/button_normal_bw.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/button_hover_bw.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -559,14 +426,12 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
-  label = &l싱글플레이
+  label = 싱글플레이
 }
 
 vanilla_button {
   button_element_executable_block_identifier = 3b199511-e610-4f26-b62b-3329a5040050-1793613534030
   [executable_block:3b199511-e610-4f26-b62b-3329a5040050-1793613534030][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/button_normal_bw.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/button_hover_bw.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -643,7 +508,7 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
-  label = &l게임 종료
+  label = 게임 종료
 }
 
 vanilla_button {
@@ -1216,8 +1081,6 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = a6c76471-182a-4ff4-8433-0fae67fa8a24-1793613534030
   [executable_block:a6c76471-182a-4ff4-8433-0fae67fa8a24-1793613534030][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/button_normal_bw.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/button_hover_bw.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1249,7 +1112,6 @@ vanilla_button {
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
   anchor_point = top-right
-  anchor_point_element = 8b48f7f5-a6bf-42a1-9a95-11d561b64f57-1793613891497
   x = -156
   y = 106
   width = 98
@@ -1295,14 +1157,12 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
-  label = &l설정
+  label = 설정
 }
 
 vanilla_button {
   button_element_executable_block_identifier = fa82ed23-39c4-4ac7-8443-f5d4322df69b-1793613534029
   [executable_block:fa82ed23-39c4-4ac7-8443-f5d4322df69b-1793613534029][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/button_normal_bw.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/button_hover_bw.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1379,7 +1239,7 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
   is_hidden = false
-  label = &l멀티플레이
+  label = 멀티플레이
 }
 
 vanilla_button {

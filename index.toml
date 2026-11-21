@@ -181,130 +181,6 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "d3dc8279243f227c3fd2a17910a6f18f5d60b231f22b9806ca682b27c6dfa12b"
 
 [[files]]
-file = "config/fancymenu/assets/eve_menu/bg_undertale.png"
-hash = "6fa1429448e846b9d785bd60e0b5d91833daca232b41fa488ec2ba851a444e43"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/button_hover_bw.png"
-hash = "b6437a6d4cf6bfa75d098c4f2ef72666c92e6daee2debccc17bd610de7b1add4"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/button_normal_bw.png"
-hash = "7784c94f02ac559c6c6ebb068a141ffdb1e2b2fe6b65c31b071ecece7bf2e7d9"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_panel.png"
-hash = "a41d5391e9e70b8e8c0bcd7317c2671b35f9bc01a62a90aeaa4a2e6cb581dc2c"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_acc.png"
-hash = "4070f0a5f59e57e0426d47324edd0a4f8e83831a51f3795e8f4cf74669122b75"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_acc_hover.png"
-hash = "aadfb644a3909833d48e2af2e74d016d1962d0043c4ce7993d86599e13cbbf64"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_claim.png"
-hash = "83994c28bcdd22d8d95c6e2fab3d5ff0dda84e99f468322e628091513bc80fc0"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_claim_hover.png"
-hash = "3611324cea9cce097489a82cc2fd29c6f979465027ec9f7dc045cc0ddfe1f322"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_log.png"
-hash = "0e0c5fb25a6f1afe90c11ac747e624c6ee5c1fe1e3b513d8fe3ccaaa45240d13"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_log_hover.png"
-hash = "5f9580a9ee93343f32919a8e5b89b2b54d89d3ecde021e399cf482793ea77ae0"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_map.png"
-hash = "1516685919b4a6e09c8846258c51fe3f232da67b98ade09f341036bbfa6fd232"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_map_hover.png"
-hash = "f9e7d89302df382da269731ec0c58f291ff03bb16e3ff62fc913e0598ec48f76"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_quest.png"
-hash = "dc648d0e42022bccdfe5c410d9336ef472e5a23bd49f3ae44a238329cc02dd5b"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_quest_hover.png"
-hash = "8e07f35b595a936820e5262d7290b217bc662ccd3d2658c27e92a743f77283f0"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_res.png"
-hash = "4211f0e6a635447bea433f45e50e99a4922016793af881468947879be5802b58"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_res_hover.png"
-hash = "e3a8d96636f84ebe74bbb257349486ec7d55374cba84933be3462b026828c0c6"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_spawn.png"
-hash = "bd1c34453b11decf29ca7f7740ecebba4b1b3a0c5873433661067c7dc37e61c2"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_spawn_hover.png"
-hash = "098454ae6d885ce936c53812ff110dcd0d779f48be3e80f02b3cc32fd6fe994c"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_summary.png"
-hash = "ab35158ecda3f216f18b76afb327f3e8a12c19e67665b44b17209f0e918f136a"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_summary_hover.png"
-hash = "c373bb44adc3fee12a22561b33cbf4767563325e74ad2e0116c42d0352b7647f"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_team.png"
-hash = "324b6a3712d1ca1d5977f21c4836b94e8cf52fc4e66a26957099179518663160"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_team_hover.png"
-hash = "b0f73dee08c644b2b33d2e892a6dedf1b4ed5891403fda813962ec9f107028fa"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_wild.png"
-hash = "7ad412560908637e4c60d71ad8f7234d13c3c3cefdc9db197a8a19fa066bb8ae"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_tile_wild_hover.png"
-hash = "97dcc259301fab8b3864818cc950d907e8d5a5ce36346625990a142de982f499"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/eve_title.png"
-hash = "bd7e5ef759c79c4704378e5b8c534c1b00e44932aa0aaaf03557b59b1ba9d4df"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/logo_eve_bw.png"
-hash = "366dda041dd2b0ed9cf872fce9affcb4c193a3b9abdf4dff6bdb6372cdade021"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/pause_button_hover_full.png"
-hash = "c6b8e72d995f7739997403809ce5e57d6f783f501541acbec9b1d5f78bf0a785"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/pause_button_hover_half.png"
-hash = "4fb5f660e05d82e55e501f25792429f3566e7bd7bab10239c98be733661b1636"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/pause_button_normal.png"
-hash = "1e0f7a30ef1e8200b6e70c335e56a9d7bc9f53ba11016096583dd41b27753c09"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/pause_panel.png"
-hash = "cdf18e9871f626265702b6dd0bde624bcf0fdc3f21c468ad29749c38acd9d5ca"
-
-[[files]]
-file = "config/fancymenu/assets/eve_menu/window_menu_bw.png"
-hash = "dc03c84fa86a682924f730ce8c5919c910d885e5895224ecc6735aca5c35e020"
-
-[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "fade676c31dc033bf8c5a344774c43e010db191e3ad5659210dce89c1eada524"
 
@@ -314,15 +190,15 @@ hash = "0791802f8643f6ead2dbeba30abced98af74fd43205705e308c795cd4e565b28"
 
 [[files]]
 file = "config/fancymenu/customization/eve_menu_layout.txt"
-hash = "6486d6262a8ec0d38cb9272d911d6877cfbfaa07d4c61e948e7336fe91d42b6b"
+hash = "702b544aaf4b9d542f60e8cb9aaba6fd148dae97d381ad09683a415fec4b9d09"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "11235a2360c6bd74787f9241e2d64e411442160911cb147882c08e8ec86b813b"
+hash = "bdabdc56e2d909338a16b7c61376d5dcabecdcd761ec0e6bcbef24163d85c08f"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "d7740e8fbc2b4485ff420d306bc3fd1d6ea7032300102d7455a2934690a6c9b6"
+hash = "6b5d920c34e693d9484cc6f456c6d3dee9973b3c276553949a210f8e73ed047e"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"

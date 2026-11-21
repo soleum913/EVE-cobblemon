@@ -182,7 +182,7 @@ hash = "d3dc8279243f227c3fd2a17910a6f18f5d60b231f22b9806ca682b27c6dfa12b"
 
 [[files]]
 file = "config/fancymenu/assets/eve_title/bg_title.jpg"
-hash = "5c40746d07454a1b60f8d73c0c6dcb607f985cf98e6776d3a858fbeaa692376d"
+hash = "c8ad0421077063a1f8a20de09f6a41cde46083c78c565e566560cc5783e3f500"
 
 [[files]]
 file = "config/fancymenu/assets/eve_title/btn_half_left_hover.png"
@@ -218,7 +218,7 @@ hash = "23f9c4ebc6b3bb726c39b0681cb6239721117d085c2b74bbd8795da46726f824"
 
 [[files]]
 file = "config/fancymenu/assets/eve_title/logo_eve.png"
-hash = "605f5540af7d71e1e77986beaaca1cb1c493bcc697ef667174cb6082f089405b"
+hash = "b508524d7966942cb22863e5e6c7314e4b92fc7c66283f063ab6e63baee08720"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -238,7 +238,7 @@ hash = "bdabdc56e2d909338a16b7c61376d5dcabecdcd761ec0e6bcbef24163d85c08f"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "fb16edbcef08b838d23453df7eb4c8cb608aed0ed756758667508d39a6a7cac7"
+hash = "95ffcb9a7e9cc901f5d8cd644d6839e06a4b44571154e11f9dbf4bebe62a3b7a"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"

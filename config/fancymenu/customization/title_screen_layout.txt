@@ -17,6 +17,12 @@ customization {
   scale = 4.0
 }
 
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
 menu_background {
   instance_identifier = ec750310-c512-44f1-bd3c-3a8ededa41f3-1793613534028
   background_type = color_fancymenu
@@ -350,6 +356,8 @@ layout_action_executable_blocks {
 vanilla_button {
   button_element_executable_block_identifier = 23311a7a-dc39-443c-be58-087a73e6eec5-1793613534029
   [executable_block:23311a7a-dc39-443c-be58-087a73e6eec5-1793613534029][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn_single_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn_single_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -380,9 +388,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = top-right
-  x = -156
-  y = 74
+  anchor_point = top-centered
+  x = -100
+  y = 126
   width = 200
   height = 20
   stay_on_screen = true
@@ -401,8 +409,8 @@ vanilla_button {
   in_editor_color = #FFC800FF
   advanced_posx = -2147483648
   advanced_posy = -2147483648
-  advanced_width = 104
-  advanced_height = 14
+  advanced_width = -2147483648
+  advanced_height = -2147483648
   stretch_x = false
   stretch_y = false
   appearance_delay_seconds = 1.0
@@ -432,6 +440,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 3b199511-e610-4f26-b62b-3329a5040050-1793613534030
   [executable_block:3b199511-e610-4f26-b62b-3329a5040050-1793613534030][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn_half_right_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn_half_right_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -462,9 +472,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = top-right
-  x = -156
-  y = 122
+  anchor_point = top-centered
+  x = 2
+  y = 174
   width = 98
   height = 20
   stay_on_screen = true
@@ -483,8 +493,8 @@ vanilla_button {
   in_editor_color = #FFC800FF
   advanced_posx = -2147483648
   advanced_posy = -2147483648
-  advanced_width = 104
-  advanced_height = 14
+  advanced_width = -2147483648
+  advanced_height = -2147483648
   stretch_x = false
   stretch_y = false
   appearance_delay_seconds = 1.0
@@ -1081,6 +1091,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = a6c76471-182a-4ff4-8433-0fae67fa8a24-1793613534030
   [executable_block:a6c76471-182a-4ff4-8433-0fae67fa8a24-1793613534030][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn_half_left_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn_half_left_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1111,9 +1123,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = top-right
-  x = -156
-  y = 106
+  anchor_point = top-centered
+  x = -100
+  y = 174
   width = 98
   height = 20
   stay_on_screen = true
@@ -1132,8 +1144,8 @@ vanilla_button {
   in_editor_color = #FFC800FF
   advanced_posx = -2147483648
   advanced_posy = -2147483648
-  advanced_width = 104
-  advanced_height = 14
+  advanced_width = -2147483648
+  advanced_height = -2147483648
   stretch_x = false
   stretch_y = false
   appearance_delay_seconds = 1.0
@@ -1163,6 +1175,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = fa82ed23-39c4-4ac7-8443-f5d4322df69b-1793613534029
   [executable_block:fa82ed23-39c4-4ac7-8443-f5d4322df69b-1793613534029][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn_multi_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn_multi_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1193,9 +1207,9 @@ vanilla_button {
   auto_sizing_base_gui_width = 480
   auto_sizing_base_gui_height = 253
   sticky_anchor = false
-  anchor_point = top-right
-  x = -156
-  y = 90
+  anchor_point = top-centered
+  x = -100
+  y = 150
   width = 200
   height = 20
   stay_on_screen = true
@@ -1214,8 +1228,8 @@ vanilla_button {
   in_editor_color = #FFC800FF
   advanced_posx = -2147483648
   advanced_posy = -2147483648
-  advanced_width = 104
-  advanced_height = 14
+  advanced_width = -2147483648
+  advanced_height = -2147483648
   stretch_x = false
   stretch_y = false
   appearance_delay_seconds = 1.0
@@ -1401,6 +1415,6 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 

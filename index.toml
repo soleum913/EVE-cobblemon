@@ -181,6 +181,38 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "d3dc8279243f227c3fd2a17910a6f18f5d60b231f22b9806ca682b27c6dfa12b"
 
 [[files]]
+file = "config/fancymenu/assets/eve_title/btn_half_left_hover.png"
+hash = "a8bef2483aef342ae85b45be0440fbc2708145afd979feda938a103c2dae8ef3"
+
+[[files]]
+file = "config/fancymenu/assets/eve_title/btn_half_left_normal.png"
+hash = "ee5ae926c4773716c54d57e9de0541a5ad34ee79ce58dc69e01e06fe2d77ede4"
+
+[[files]]
+file = "config/fancymenu/assets/eve_title/btn_half_right_hover.png"
+hash = "0be306b5c26adc25ff5336a62675ad22ada5b4ad94c9b8dd3bc1d2880f0d1fd8"
+
+[[files]]
+file = "config/fancymenu/assets/eve_title/btn_half_right_normal.png"
+hash = "2205bed18159de6056bd69139ebc112fc15cdca5f2831de043e3595cc32e47c3"
+
+[[files]]
+file = "config/fancymenu/assets/eve_title/btn_multi_hover.png"
+hash = "2e9b054bae8da9879a3f88cd111cdd5e3d790c9776eab93fa72c432006f2cc58"
+
+[[files]]
+file = "config/fancymenu/assets/eve_title/btn_multi_normal.png"
+hash = "7cac4cc303272657816d3ee3b995035f7cbd65dbf19615edb8a63ab27d050b66"
+
+[[files]]
+file = "config/fancymenu/assets/eve_title/btn_single_hover.png"
+hash = "dc025a48fc1c922e77ff53067becffd423c11f058eb56ac2ad8bfdb2a523a710"
+
+[[files]]
+file = "config/fancymenu/assets/eve_title/btn_single_normal.png"
+hash = "23f9c4ebc6b3bb726c39b0681cb6239721117d085c2b74bbd8795da46726f824"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "fade676c31dc033bf8c5a344774c43e010db191e3ad5659210dce89c1eada524"
 
@@ -198,7 +230,7 @@ hash = "bdabdc56e2d909338a16b7c61376d5dcabecdcd761ec0e6bcbef24163d85c08f"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "6b5d920c34e693d9484cc6f456c6d3dee9973b3c276553949a210f8e73ed047e"
+hash = "97fd1957b7a81cde0da6cdaefa0a528db74c4a102f6e143bfac6dd54435e92f0"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"

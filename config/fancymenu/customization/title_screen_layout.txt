@@ -39,8 +39,8 @@ menu_background {
 menu_background {
   instance_identifier = 89f71163-df14-4095-9cf5-8a46d4b43596-1793613534028
   background_type = image
-  show_background = false
-  image_path = 
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/eve_title/bg_title.jpg
   slide = false
   repeat_texture = false
   parallax = false
@@ -336,7 +336,7 @@ decoration_overlay {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = false
+  keepaspectratio = true
 }
 
 scroll_list_customization {
@@ -1418,3 +1418,31 @@ vanilla_button {
   is_hidden = false
 }
 
+
+element {
+  element_type = image
+  instance_identifier = eve-title-logo
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = top-centered
+  x = -132
+  y = 12
+  width = 264
+  height = 92
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = eve-title-logo-req
+  [loading_requirement_container_meta:eve-title-logo-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  source = [source:local]/config/fancymenu/assets/eve_title/logo_eve.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
+}

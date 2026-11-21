@@ -181,6 +181,10 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "d3dc8279243f227c3fd2a17910a6f18f5d60b231f22b9806ca682b27c6dfa12b"
 
 [[files]]
+file = "config/fancymenu/assets/eve_title/bg_title.jpg"
+hash = "5c40746d07454a1b60f8d73c0c6dcb607f985cf98e6776d3a858fbeaa692376d"
+
+[[files]]
 file = "config/fancymenu/assets/eve_title/btn_half_left_hover.png"
 hash = "a8bef2483aef342ae85b45be0440fbc2708145afd979feda938a103c2dae8ef3"
 
@@ -213,6 +217,10 @@ file = "config/fancymenu/assets/eve_title/btn_single_normal.png"
 hash = "23f9c4ebc6b3bb726c39b0681cb6239721117d085c2b74bbd8795da46726f824"
 
 [[files]]
+file = "config/fancymenu/assets/eve_title/logo_eve.png"
+hash = "605f5540af7d71e1e77986beaaca1cb1c493bcc697ef667174cb6082f089405b"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "fade676c31dc033bf8c5a344774c43e010db191e3ad5659210dce89c1eada524"
 
@@ -230,7 +238,7 @@ hash = "bdabdc56e2d909338a16b7c61376d5dcabecdcd761ec0e6bcbef24163d85c08f"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "97fd1957b7a81cde0da6cdaefa0a528db74c4a102f6e143bfac6dd54435e92f0"
+hash = "fb16edbcef08b838d23453df7eb4c8cb608aed0ed756758667508d39a6a7cac7"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"

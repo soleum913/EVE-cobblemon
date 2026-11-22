@@ -278,7 +278,7 @@ hash = "829cb5eecb00ed8f82a98a80fbde06bb1826225406be4b6697166c19ef562017"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "fdaacbacfe84c7eee073e87cf087545357045c21672f8b6a4bd7c1d70db41bdd"
+hash = "5e1aff99a4eef97a675d0e245a7e2fc3f0df6224c9a48fec2c4ea89bdf6658a5"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"

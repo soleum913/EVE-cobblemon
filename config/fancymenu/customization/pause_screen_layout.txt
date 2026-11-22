@@ -3,7 +3,7 @@ type = fancymenu_layout
 layout-meta {
   identifier = pause_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1795341140000
+  last_edited_time = 1795348221000
   is_enabled = true
   randommode = false
   randomgroup = 1
@@ -68,6 +68,37 @@ vanilla_button {
   navigatable = true
   widget_active_state_requirement_container_identifier = pause_title_widget-active
   [loading_requirement_container_meta:pause_title_widget-active] = [groups:][instances:]
+  label_shadow = true
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 40
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = vanilla
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 40-req
+  [loading_requirement_container_meta:40-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  element_type = vanilla_button
+  button_element_executable_block_identifier = 40-script
+  [executable_block:40-script][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn5_204_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn5_204_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  underline_label_on_hover = false
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 40-active
+  [loading_requirement_container_meta:40-active] = [groups:][instances:]
   label_shadow = true
   is_hidden = true
 }

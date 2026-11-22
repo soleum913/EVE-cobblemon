@@ -1429,10 +1429,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = top-centered
-  x = -100
-  y = 28
-  width = 200
-  height = 74
+  x = -85
+  y = 34
+  width = 170
+  height = 63
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-title-logo-req
   [loading_requirement_container_meta:eve-title-logo-req] = [groups:][instances:]

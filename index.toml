@@ -185,36 +185,28 @@ file = "config/fancymenu/assets/eve_title/bg_title_wide.jpg"
 hash = "00f8c576fb6fbe81e130253d6a65d16695fddf3288ee7d3493c7c919afa16a21"
 
 [[files]]
-file = "config/fancymenu/assets/eve_title/btn3_multi_hover.png"
-hash = "955680ebae37d08d88fd371e07ff856a55168d02b946086f6154c3638a0c0707"
+file = "config/fancymenu/assets/eve_title/btn4_full_hover.png"
+hash = "ae188aa8dd3eb044de85b035bbd9dd33cc1c07a907650d0d94403d929c1aa3e3"
 
 [[files]]
-file = "config/fancymenu/assets/eve_title/btn3_multi_normal.png"
-hash = "d61d6059d6b5b5e0b9d36dd1e8012fc3ede4af9a41d555d031f95c4ad2fa9c2d"
+file = "config/fancymenu/assets/eve_title/btn4_full_normal.png"
+hash = "6d067333da65e8304f155786f686426ca8950413ecabd105f202d79392b4020f"
 
 [[files]]
-file = "config/fancymenu/assets/eve_title/btn3_options_hover.png"
-hash = "599f86175ce68e83aeacc0c1f246c04fbf2b369d9ea96d88ef5286d9229675f7"
+file = "config/fancymenu/assets/eve_title/btn4_half_left_hover.png"
+hash = "aba039dd5c2327d20e902643f7bf9e865cab4c64be2563ab2a6f02da67f69b2e"
 
 [[files]]
-file = "config/fancymenu/assets/eve_title/btn3_options_normal.png"
-hash = "e9ce433ba1f57a1812baea1fbf96952f10643eda741423f5d972058ceb85c04e"
+file = "config/fancymenu/assets/eve_title/btn4_half_left_normal.png"
+hash = "a3f948189258a4f1c36ecf5282f93cfb1d1de349e4d521870917fcd27d14ad42"
 
 [[files]]
-file = "config/fancymenu/assets/eve_title/btn3_quit_hover.png"
-hash = "74d66463089bdbd0cf7d3c064e2ef664a80da8253f2ea69613f328266f9f0b7e"
+file = "config/fancymenu/assets/eve_title/btn4_half_right_hover.png"
+hash = "95c45a8104af7297f31b86dc49f9305a4a1310630b3e3f4c47dc743ff42848dc"
 
 [[files]]
-file = "config/fancymenu/assets/eve_title/btn3_quit_normal.png"
-hash = "ccba1faa0eb7a1492bcffa7c5237e6c1b789e4e6437064386495be7f0c307350"
-
-[[files]]
-file = "config/fancymenu/assets/eve_title/btn3_single_hover.png"
-hash = "b99a41cd76c0d91466a478f85f27107ba5513f9fc3709cad35d9b736ccab6a23"
-
-[[files]]
-file = "config/fancymenu/assets/eve_title/btn3_single_normal.png"
-hash = "da33df3203a052e268fabd7c41f988651e525f19de9b2e8d334a19c336e3dc8e"
+file = "config/fancymenu/assets/eve_title/btn4_half_right_normal.png"
+hash = "62643299ff600b76e2929d1ca2bdbe27a0dd51b8560355f3f615670c31006527"
 
 [[files]]
 file = "config/fancymenu/assets/eve_title/logo_eve.png"
@@ -238,7 +230,7 @@ hash = "bdabdc56e2d909338a16b7c61376d5dcabecdcd761ec0e6bcbef24163d85c08f"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "bdeef68c77bc73154659818f993a89ccea252cd0b51158c0a185f625adc1b5de"
+hash = "3e341c8b43380a59250775c9caac60eb79edb981d13d5259e7c29f24499db55f"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"

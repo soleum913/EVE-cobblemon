@@ -39,7 +39,7 @@ menu_background {
 menu_background {
   instance_identifier = 89f71163-df14-4095-9cf5-8a46d4b43596-1793613534028
   background_type = image
-  show_background = true
+  show_background = false
   image_path = [source:local]/config/fancymenu/assets/eve_title/bg_title_wide.jpg
   slide = true
   repeat_texture = false

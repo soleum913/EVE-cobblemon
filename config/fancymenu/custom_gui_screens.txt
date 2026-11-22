@@ -5,7 +5,7 @@ overridden_screens {
 
 custom_gui {
   identifier = eve_menu
-  title = EVE 메뉴
+  title =
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true

@@ -761,6 +761,10 @@ file = "global_packs/required_resources/EVE_lang_ko.zip"
 hash = "61e9ef502943899d1baa338539a2e0064f984902fd817c0697819684c69d500a"
 
 [[files]]
+file = "global_packs/required_resources/EVE_ui_tweaks.zip"
+hash = "419dfff6be0235155b39614b6db0d6fa54338653755d12564cb130ac27db5a72"
+
+[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "65fafb1360227deebc0ebebacacac77a39183588df734a02dc43199d7652b30d"
 metafile = true

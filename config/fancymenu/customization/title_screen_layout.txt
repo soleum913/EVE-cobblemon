@@ -356,8 +356,8 @@ layout_action_executable_blocks {
 vanilla_button {
   button_element_executable_block_identifier = 23311a7a-dc39-443c-be58-087a73e6eec5-1793613534029
   [executable_block:23311a7a-dc39-443c-be58-087a73e6eec5-1793613534029][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn4_full_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn4_full_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn5_200_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn5_200_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -440,8 +440,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 3b199511-e610-4f26-b62b-3329a5040050-1793613534030
   [executable_block:3b199511-e610-4f26-b62b-3329a5040050-1793613534030][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn4_half_right_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn4_half_right_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn5_98_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn5_98_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1091,8 +1091,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = a6c76471-182a-4ff4-8433-0fae67fa8a24-1793613534030
   [executable_block:a6c76471-182a-4ff4-8433-0fae67fa8a24-1793613534030][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn4_half_left_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn4_half_left_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn5_98_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn5_98_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1175,8 +1175,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = fa82ed23-39c4-4ac7-8443-f5d4322df69b-1793613534029
   [executable_block:fa82ed23-39c4-4ac7-8443-f5d4322df69b-1793613534029][type:generic] = [executables:]
-  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn4_full_normal.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn4_full_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_title/btn5_200_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_title/btn5_200_hover.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true

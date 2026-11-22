@@ -233,6 +233,10 @@ file = "config/fancymenu/assets/eve_menu/eve_panel.png"
 hash = "6e3eb1629c3df73b55971bd3e3590f2a98c2b4115202e1b2b886c48b454af2d5"
 
 [[files]]
+file = "config/fancymenu/assets/eve_menu/pause_panel.png"
+hash = "669dbe1d1d17b436d48e7c7307dba941dd4c04e6707e0f65324dc9e952f22c71"
+
+[[files]]
 file = "config/fancymenu/assets/eve_title/bg_title_wide.jpg"
 hash = "00f8c576fb6fbe81e130253d6a65d16695fddf3288ee7d3493c7c919afa16a21"
 
@@ -278,7 +282,7 @@ hash = "d863d34f4491c2a64a5decb459b9d90d75bc09836f85e41026a292d057a4a4c2"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "bdabdc56e2d909338a16b7c61376d5dcabecdcd761ec0e6bcbef24163d85c08f"
+hash = "8fa216f3a00a9931d283d0e423e5091364ae360b55ba9ab794bbe8232aaa386c"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"

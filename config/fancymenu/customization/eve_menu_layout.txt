@@ -3,7 +3,7 @@ type = fancymenu_layout
 layout-meta {
   identifier = eve_menu
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1795246333000
+  last_edited_time = 1795338085000
   is_enabled = true
   randommode = false
   randomgroup = 1
@@ -24,8 +24,8 @@ customization {
 }
 
 element {
-  element_type = text_v2
-  instance_identifier = eve-txt-title
+  element_type = image
+  instance_identifier = eve-panel
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -33,24 +33,50 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -20
-  y = -84
-  width = 104
-  height = 10
+  x = -164
+  y = -80
+  width = 328
+  height = 162
   stay_on_screen = false
-  element_loading_requirement_container_identifier = eve-txt-title-req
-  [loading_requirement_container_meta:eve-txt-title-req] = [groups:][instances:]
+  element_loading_requirement_container_identifier = eve-panel-req
+  [loading_requirement_container_meta:eve-panel-req] = [groups:][instances:]
   enable_parallax = false
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  source = EVE 메뉴
-  source_mode = direct
-  shadow = false
-  case_mode = normal
-  enable_scrolling = false
-  auto_line_wrapping = false
-  interactable = false
+  source = [source:local]/config/fancymenu/assets/eve_menu/eve_panel.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
+}
+
+element {
+  element_type = image
+  instance_identifier = eve-title
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -52
+  y = -90
+  width = 104
+  height = 20
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = eve-title-req
+  [loading_requirement_container_meta:eve-title-req] = [groups:][instances:]
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  base_opacity = 1.0
+  source = [source:local]/config/fancymenu/assets/eve_menu/eve_title.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
 }
 
 element {
@@ -74,8 +100,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 스폰
+  label =
   description = 스폰 지점으로 이동 (/spawn)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_spawn.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_spawn_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -109,8 +137,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 야생
+  label =
   description = 야생 무작위 위치로 이동 (/rtp)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_wild.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_wild_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -144,8 +174,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 거주 구역
+  label =
   description = 거주 구역으로 이동 (/warp residence)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_res.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_res_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -179,8 +211,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 퀘스트
+  label =
   description = FTB 퀘스트 (단축키 I)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_quest.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_quest_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -214,8 +248,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 팀
+  label =
   description = FTB 팀 (단축키 T)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_team.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_team_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -249,8 +285,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 땅 관리
+  label =
   description = FTB Chunks 지도 (단축키 Y)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_claim.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_claim_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -284,8 +322,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 월드맵
+  label =
   description = Xaero 월드맵 (단축키 M)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_map.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_map_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -319,8 +359,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 장신구
+  label =
   description = 장신구 창 (단축키 H)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_acc.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_acc_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -354,8 +396,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 포켓몬 요약
+  label =
   description = 포켓몬 요약 (단축키 ')
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_summary.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_summary_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -389,8 +433,10 @@ element {
   load_once_per_session = false
   layer_hidden_in_editor = false
   base_opacity = 1.0
-  label = 배틀 기록
+  label =
   description = 배틀 기록 (단축키 ;)
+  backgroundnormal = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_log.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/eve_menu/eve_tile_log_hover.png
   transparent_background = false
   nine_slice_custom_background = false
   underline_label_on_hover = false
@@ -413,9 +459,9 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -152
+  x = -150
   y = 66
-  width = 304
+  width = 300
   height = 10
   stay_on_screen = false
   element_loading_requirement_container_identifier = eve-txt-foot-req

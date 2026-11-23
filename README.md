@@ -9,11 +9,14 @@ EVE 동아리 포켓몬(Cobblemon) 서버용 클라이언트 모드팩입니다.
 
 이 저장소에는 **모드 jar 파일이 들어 있지 않습니다.** `mods/`·`resourcepacks/`의 `.pw.toml` 파일은 "어느 모드의 어느 파일을 받을지"와 파일 해시만 기록한 것이고, 실제 파일은 설치할 때 각 원작자의 배포처(Modrinth, CurseForge)에서 직접 받습니다. 모든 모드의 권리는 각 원작자에게 있습니다.
 
-## 허락을 받아 넣은 모드
+## 출처를 밝혀 쓰는 모드
 
-| 모드 | 작가 | 내용 |
-|---|---|---|
-| [Complete Cobblemon Collection](https://modrinth.com/mod/complete-cobblemon-collection-myths-and-legends-compat) | Xcavalier | 크레세리아·울트라비스트·패러독스 포켓몬 등의 모델. All Rights Reserved 라이선스이며, 2026-11-23 작가에게 모드팩 수록 허락을 받았습니다. 감사합니다! |
+| 모드 | 작가 | 내용 | 라이선스 |
+|---|---|---|---|
+| [Cobblemon: AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy) | **AllTheMons** · **Lvnatic** 외 기여자들 | Cobblemon에 없는 포켓몬(크레세리아·울트라비스트·패러독스 등)의 모델과 애니메이션 | AllTheMons License v3.3. 2026-11-24 ATM 공식 Discord에서 "수익 없는 대학 동아리 비공개 서버는 따로 신청할 필요 없다"는 답을 받았습니다 |
+| [Cobblemon: Mega Showdown](https://modrinth.com/mod/cobblemon-mega-showdown) | Yajat Kaul 외 | 메가진화·Z기술·다이맥스·테라스탈·폼 변화 | MEGA SHOWDOWN LICENSE v2.1 (비상업 서버는 별도 허락 불필요) |
+
+예전에 잠시 쓴 [Complete Cobblemon Collection](https://modrinth.com/mod/complete-cobblemon-collection-myths-and-legends-compat)(Xcavalier)에도 감사드립니다. Mega Showdown과 그림 파일이 겹쳐 AllTheMons x Mega Showdown으로 바꾸었습니다.
 
 ## 이 저장소에서 직접 배포하는 파일
 

@@ -761,6 +761,10 @@ file = "global_packs/required_resources/EVE_lang_ko.zip"
 hash = "31f921dd0fc7860725e6111019afb34134e16d969842d845677b0cdc706f113a"
 
 [[files]]
+file = "global_packs/required_resources/EVE_model_fix.zip"
+hash = "c2ba79cd91ea0fa89a74d1a3475ac3f8714c2b46aada7303e0582dff0374941e"
+
+[[files]]
 file = "global_packs/required_resources/EVE_ui_tweaks.zip"
 hash = "419dfff6be0235155b39614b6db0d6fa54338653755d12564cb130ac27db5a72"
 
@@ -777,6 +781,11 @@ metafile = true
 [[files]]
 file = "mods/aios-extra-structures.pw.toml"
 hash = "3a9d9934b1fc3688d3a150c8bfd867ef14f7e03c8a80c046195d08dc2fc3e59d"
+metafile = true
+
+[[files]]
+file = "mods/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "c834325680b88c9035546a2bc3a4e2cf976df2aa7e4d4341be293ffcca850d4a"
 metafile = true
 
 [[files]]
@@ -947,11 +956,6 @@ metafile = true
 [[files]]
 file = "mods/cobbreeding.pw.toml"
 hash = "1f99171b8e23441d463e890f02b7f6c023043a66f73db5d630fb491e1621742d"
-metafile = true
-
-[[files]]
-file = "mods/complete-cobblemon-collection-myths-and-legends-compat.pw.toml"
-hash = "504e1c016abd88c7c2a3420aa9250476c81cbf6bec4b94accfac2eddd2dfe008"
 metafile = true
 
 [[files]]

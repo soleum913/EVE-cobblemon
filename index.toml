@@ -950,6 +950,11 @@ hash = "1f99171b8e23441d463e890f02b7f6c023043a66f73db5d630fb491e1621742d"
 metafile = true
 
 [[files]]
+file = "mods/complete-cobblemon-collection-myths-and-legends-compat.pw.toml"
+hash = "504e1c016abd88c7c2a3420aa9250476c81cbf6bec4b94accfac2eddd2dfe008"
+metafile = true
+
+[[files]]
 file = "mods/configurable.pw.toml"
 hash = "6362cc6c134a44c59ed023b7b443c14afe955da58158dee421141976bdeb599f"
 metafile = true

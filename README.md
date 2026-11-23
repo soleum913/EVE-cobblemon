@@ -9,6 +9,12 @@ EVE 동아리 포켓몬(Cobblemon) 서버용 클라이언트 모드팩입니다.
 
 이 저장소에는 **모드 jar 파일이 들어 있지 않습니다.** `mods/`·`resourcepacks/`의 `.pw.toml` 파일은 "어느 모드의 어느 파일을 받을지"와 파일 해시만 기록한 것이고, 실제 파일은 설치할 때 각 원작자의 배포처(Modrinth, CurseForge)에서 직접 받습니다. 모든 모드의 권리는 각 원작자에게 있습니다.
 
+## 허락을 받아 넣은 모드
+
+| 모드 | 작가 | 내용 |
+|---|---|---|
+| [Complete Cobblemon Collection](https://modrinth.com/mod/complete-cobblemon-collection-myths-and-legends-compat) | Xcavalier | 크레세리아·울트라비스트·패러독스 포켓몬 등의 모델. All Rights Reserved 라이선스이며, 2026-11-23 작가에게 모드팩 수록 허락을 받았습니다. 감사합니다! |
+
 ## 이 저장소에서 직접 배포하는 파일
 
 | 파일 | 내용 | 권리·라이선스 |

@@ -757,12 +757,16 @@ file = "config/zoomify.json"
 hash = "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36"
 
 [[files]]
+file = "global_packs/required_resources/EVE_cinema.zip"
+hash = "ce33964ed50d237108336be34102d48e208d7e013778196ec25701b129fc5a8a"
+
+[[files]]
 file = "global_packs/required_resources/EVE_lang_ko.zip"
 hash = "31f921dd0fc7860725e6111019afb34134e16d969842d845677b0cdc706f113a"
 
 [[files]]
-file = "global_packs/required_resources/EVE_model_fix.zip"
-hash = "c2ba79cd91ea0fa89a74d1a3475ac3f8714c2b46aada7303e0582dff0374941e"
+file = "global_packs/required_resources/EVE_legend_items.zip"
+hash = "93dbdfe050d944761d8a27c8a870d8fb0632d90612423b485cc68d77b896b776"
 
 [[files]]
 file = "global_packs/required_resources/EVE_ui_tweaks.zip"

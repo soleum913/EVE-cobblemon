@@ -446,7 +446,7 @@ hash = "a3570ac89dcdefb90e242ba728e71a90e43fa0201b1de3b81f02619ebf27eda0"
 
 [[files]]
 file = "config/litematica.json"
-hash = "38d362c8839f769f2aa85efdef11556b37413415f0323a26959ec841a7ad4fea"
+hash = "999efc03fc066249c8e231ebe1b6c7008fb9dbd6eada1bd6c378ae3d8ee3914f"
 
 [[files]]
 file = "config/litematica/litematica_localhost.json"
